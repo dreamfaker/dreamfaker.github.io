@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG" />
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG" />
+  <meta property="og:url" content="URL OF THE WEBSITE" />
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>XiXiChat</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">XiXiChat：A Domain-Specific Agriculture Large Language Model for
+              Root Crops</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <!-- <span class="author-block">
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Ruiqi Wang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Xianhe Zhang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Liwen Lin</a><sup>2</sup>
+              </span> -->
+              <span class="author-block">
+                Ruiqi Wang<sup>1</sup>,</span>
+              <span class="author-block">
+                Xianhe Zhang<sup>1</sup>,</span>
+              <span class="author-block">
+                Liwen Lin<sup>2</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <!-- <span class="author-block">Institution Name<br>Conferance name and year</span> -->
+              <span class="author-block"><sup>1</sup>Northwestern A&F University</span>,
+              <span class="author-block"><sup>2</sup>Xi’an Jiaotong University</span>
+              <span class="eql-cntrb"><small><br>Supervised by the PI of <a href="http://www.ai4bread.com">AI4BREAD
+                    Lab</a></small></span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Arxiv PDF link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Supplementary PDF link -->
+                <span class="link-block">
+                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Supplementary</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Teaser video-->
+  <!-- <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <video poster="" id="tree" autoplay controls muted loop height="100%">
+    
+          <source src="static/videos/banner_video.mp4" type="video/mp4">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat
+          pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.
+        </h2>
+      </div>
+    </div>
+  </section> -->
+  <!-- End teaser video -->
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+
+            <p>1. Foundational Large Language Models (LLMs) such as GPT, Qwen, and LlaMa exhibit impressive performance
+              in
+              general contexts, but they typically lack the domain-specific knowledge necessary for practical
+              applications in industrial or business settings. A domain-specific LLM is a specialized model trained or
+              fine-tuned to excel in specific tasks defined by organizational requirements. Unlike general-purpose
+              language models, domain-specific LLMs are purpose-built for precise applications in real-world scenarios.
+            </p>
+            <p>2. In Agriculture, several LLMs have been proposed. However, it is a challenging task to make large
+              models
+              simultaneously generalistically recognizable and highly specialized in knowledge.</p>
+            <p>3. To achieve this goal, our lab tries to design XiXiChat, a doman-specific agriculture large language
+              model, to handle the specialized questions in root crops domain. XiXiChat aims to bridge the gap between
+              general language understanding and specialized agricultural knowledge.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">XiXiChat-14b-Beta</h2>
+        <div class="columns is-centered has-text-centered">
+          <!-- <div class="column is-four-fifths"> -->
+          <div class="column">
+            <div class="content has-text-justified">
+              <p>
+                XiXiChat-14b-Beta has a 14 billion parameter base model and a short Q&A chat model tailored for
+                agricultural scenarios. The current beta version is trained by around specific 50,000 Q&A data. After
+                extensive testing, we found that the performance of the XiXiChat-14b-Beta is between GPT3.5 and GPT4o
+                for answering generalized questions in agriculture, and higher than GPT4o for answering specialized
+                questions on root crops. Some examples of comparisons are listed below.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">Close-Beta Guideline</h2>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full">
+            <div class="content has-text-justified">
+              <p>Although our model has made some breakthroughs in the professional field, it still has some problems
+                (e.g., the fine-grained professional and geographical planting problems are still partially incorrect),
+                so we plan to organize a close-beta, and we sincerely invite all you to provide valuable opinions on our
+                model. Due to the limited energy of our group, the test is only for on-campus users in Northwest A&F
+                University at the moment (close-beta).</p>
+              <h3>Sign up</h3>
+              <p>For the first use, please register by entering the relevant information. Your submission will be reviewed by an administrator. Upon approval, the user account will be successfully created.</p>
+              <img src="static/images/signup.png" alt="">
+              <h3>Select a model</h3>
+              <p>Click the top left corner, select the <i>XiXiChat
+                14.2B </i>model, and once successfully selected, you can begin the question and answer session.</p>
+              <img src="static/images/chooseModel.png" alt="main interface">
+              <h3>Contact us</h3>
+              If you encounter any issues while using it, please contact us via the email <a href="mailto:immortals2020@163.com">immortals2020@163.com</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <h3>Sign up</h3>
+            <img src="static/images/signup.png" alt="">
+            <img src="static/images/home.png" alt="main interface">
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+
+
+
+  <!-- Image carousel -->
+  <!-- <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+  
+            <img src="static/images/carousel1.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              First image description.
+            </h2>
+          </div>
+          <div class="item">
+   
+            <img src="static/images/carousel2.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Second image description.
+            </h2>
+          </div>
+          <div class="item">
+
+            <img src="static/images/carousel3.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Third image description.
+            </h2>
+          </div>
+          <div class="item">
+
+            <img src="static/images/carousel4.jpg" alt="MY ALT TEXT" />
+            <h2 class="subtitle has-text-centered">
+              Fourth image description.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End image carousel -->
+
+
+
+
+  <!-- Youtube video -->
+  <!-- <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+
+        <h2 class="title is-3">Video Presentation</h2>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+
+            <div class="publication-video">
+   
+              <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End youtube video -->
+
+
+  <section class="hero is-small ">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3">Future</h2>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full">
+            <div class="content has-text-justified">
+              <p>
+                In the future, our model will be continuously optimized and eventually open-sourced for the community,
+                which will take about three processes:</p>
+              <p>1. Close-Beta: Updating the training data and model through some typical examples.</p>
+              <p>2. Open-Beta：Updating the training data and model through large number examples.</p>
+              <p>3. Model Online and Open-Source.</p>
+              <p style="font-size:small;"><sup>*</sup>About open-source: Open-source is vital for computer science and
+                agriculture community, We are committed to open-source our models when our model is fully tested in
+                stage 1 and 2.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <!-- Paper video. -->
+        <h2 class="title is-3">About Us</h2>
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-full">
+            <div class="content has-text-justified">
+              <p>This is an undergraduate student-led project with all participating members of the project belonging to
+                the AI4BREAD lab.</p>
+              <p>AI4BREAD Lab is an equal, free, and academic joint lab, founded by Xi'an Jiaotong University and
+                Northwest A&F University. We are committed to doing interesting, useful, and warm research. If you are a
+                student of these two schools and are interested in our lab, please feel free to contact us!</p>
+              <p>Xi’an Jiaotong University: <a href="mailto:laiyifu@xjtu.edu.cn">laiyifu@xjtu.edu.cn</a></p>
+              <p>Northwestern A&F University: <a href="mailto:danyangwu.cs@gmail.com">danyangwu.cs@gmail.com</a></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- Paper poster -->
+  <!-- <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title">Poster</h2>
+
+        <iframe src="static/pdfs/sample.pdf" width="100%" height="550">
+        </iframe>
+
+      </div>
+    </div>
+  </section> -->
+  <!--End paper poster -->
+
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template"
+                target="_blank">Academic Project Page Template</a> which was adopted from the <a
+                href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              You are free to borrow the of this website, we just ask that you link back to this page in the footer.
+              <br> This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Statcounter tracking code -->
+
+  <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+  <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
